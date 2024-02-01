@@ -11,7 +11,7 @@ module "tfconfig-functions" {
 }
 
 module "aws-functions" {
-  source = "../../aws-functions/aws-functions.sentinel"
+  source = "../../aws/aws-functions/aws-functions.sentinel"
 }
 
 policy "enforce-mandatory-tags" {
